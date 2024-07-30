@@ -14,19 +14,19 @@ function Footer() {
         <h5>Account</h5>
         <ul>
           <li>
-            <a href="../pages/account.jsx">My Account</a>
+            <a href="/account">My Account</a>
           </li>
           <li>
-            <a href="../pages/login.jsx">Login</a>/<a href="../pages/signup.jsx">Register</a>
+            <a href="/login">Login</a>/<a href="/signup">Register</a>
           </li>
           <li>
-            <a href="../pages/cart.jsx">Cart</a>
+            <a href="/cart">Cart</a>
           </li>
           <li>
-            <a href="../pages/wishlist.jsx">Wishlist</a>
+            <a href="/wishlist">Wishlist</a>
           </li>
           <li>
-            <a href="../pages/product.jsx">Shop</a>
+            <a href="/product">Shop</a>
           </li>
         </ul>
       </div>
@@ -34,16 +34,16 @@ function Footer() {
         <h5>Quick Link</h5>
         <ul>
           <li>
-            <a href="../pages/privacy.jsx">Privacy Policy</a>
+            <a href="/privacy">Privacy Policy</a>
           </li>
           <li>
-            <a href="../pages/term.jsx">Terms Of Use</a>
+            <a href="/term">Terms Of Use</a>
           </li>
           <li>
-            <a href="../pages/faq.jsx">FAQ</a>
+            <a href="/faq">FAQ</a>
           </li>
           <li>
-            <a href="../pages/contact.jsx">Contact</a>
+            <a href="/contact">Contact</a>
           </li>
         </ul>
       </div>

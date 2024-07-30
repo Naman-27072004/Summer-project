@@ -10,7 +10,7 @@ function Signup() {
             <input type="password" placeholder="Password" />
             <br />
             <button type="submit">Create Account</button>
-            <p>Already have an account? <a href="./login">Log In</a></p> 
+            <p>Already have an account? <a href="/login">Log In</a></p> 
         </form>
     </div>
 }

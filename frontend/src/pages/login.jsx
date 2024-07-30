@@ -8,7 +8,7 @@ function Login() {
             <input type="password" placeholder="Password" />
             <br/>
             
-            <button type="submit">Log In <a href="/forgot-password">Forget Password?</a></button>
+            <button type="submit">Log In <a href="/forget">Forget Password?</a></button>
         </form>
     </div>
 }

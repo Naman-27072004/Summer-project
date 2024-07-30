@@ -6,10 +6,10 @@ function Navbar() {
                     <span>Exclusive</span>
                 </div>
                 <div>
-                    <a href="../pages/homepage.jsx">Home</a>
-                    <a href="../pages/contact.jsx">Contact</a>
-                    <a href="../pages/about.jsx">About</a>
-                    <a href="../pages/signup.jsx">Sign Up</a>
+                    <a href="/">Home</a>
+                    <a href="/contact">Contact</a>
+                    <a href="/about">About</a>
+                    <a href="/signup">Sign Up</a>
                 </div>
                 <div>
                     <input type="text" placeholder="What are you looking for?" />
