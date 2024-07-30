@@ -10,6 +10,9 @@ import Homepage from './pages/homepage'
 import Login from './pages/login'
 import Product from './pages/product'
 import Signup from './pages/signup'
+import Header from './components/Header'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -17,6 +20,8 @@ function App() {
   return (
     <>
      <BrowserRouter>
+        <Header />
+        <Navbar />
         <Routes>
         <Route path='/' element={<Homepage/>} />
         <Route path='about' element={<About/>} />
@@ -27,8 +32,8 @@ function App() {
         <Route path='login' element={<Login/>}/>
         <Route path='product' element={<Product/>}/>
         <Route path='signup' element={<Signup/>}/>
-
         </Routes>
+        <Footer />
      </BrowserRouter>
     </>
   )
