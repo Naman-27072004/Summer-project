@@ -1,6 +1,6 @@
 function Product(){
     return<div>
-            Signup page
+            Product
         </div>
     }
 export default Product;
