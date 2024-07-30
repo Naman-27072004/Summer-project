@@ -72,10 +72,11 @@ function Footer() {
         </li>
       </ul>
       </div>
-    </div>
-    <div className='copy'>
+      <div className='copy'>
       <p>© 2024 Company, Inc. All rights reserved.</p>
     </div>
+    </div>
+    
   </footer>
 </div>
 
