@@ -1,7 +1,8 @@
+import '../Styles/footer.css'
 function Footer() {
     return <div>
   <footer>
-    <div>
+    <div className="footer">
       <div>
         <h5>Support</h5>
         <ul>
@@ -56,11 +57,7 @@ function Footer() {
             <button type="button"><i></i></button>
           </div>
         </form>
-      </div>
-    </div>
-    <div>
-      <p>© 2024 Company, Inc. All rights reserved.</p>
-      <ul>
+        <ul>
         <li>
           <a href="#"><svg width="{24}" height="{24}">
               <use /></svg></a>
@@ -74,6 +71,10 @@ function Footer() {
               <use /></svg></a>
         </li>
       </ul>
+      </div>
+    </div>
+    <div className='copy'>
+      <p>© 2024 Company, Inc. All rights reserved.</p>
     </div>
   </footer>
 </div>

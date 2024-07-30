@@ -1,5 +1,6 @@
+
 function Signup() {
-    return <div>
+    return <div className="container">
         <h1>Create an account!</h1>
         <p>Enter your details below:</p>
         <form>

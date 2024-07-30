@@ -1,5 +1,6 @@
+import '../Styles/login.css'
 function Login() {
-    return <div>
+    return <div className="container">
         <h2>Log in to Exclusive</h2>
         <p>Enter your details below</p>
         <form>
@@ -8,7 +9,7 @@ function Login() {
             <input type="password" placeholder="Password" />
             <br/>
             
-            <button type="submit">Log In <a href="/forget">Forget Password?</a></button>
+            <button type="submit">Log In <a href="/account">Forget Password?</a></button>
         </form>
     </div>
 }

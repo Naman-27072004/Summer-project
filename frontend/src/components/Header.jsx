@@ -1,6 +1,7 @@
+import '../Styles/header.css'
 function Header(){
-    return<div>
-        <header><a href="/product">Limited time offer... Avail 50% off straight away!</a></header>
+    return<div className="header">
+        <header>Limited time offer... Avail 50% off straight away! <a href="/product">Shop now</a></header>
         
     </div>
 }

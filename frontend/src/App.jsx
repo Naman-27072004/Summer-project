@@ -18,7 +18,7 @@ import Wishlist from './pages/wishlist'
 import Header from './components/Header'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
-import Forget from './pages/forget'
+
 
 function App() {
 
@@ -38,7 +38,6 @@ function App() {
         <Route path='contact' element={<Contact/>}/>
         <Route path='error' element={<Error/>}/>
         <Route path ='faq' element={<Faq/>}/>
-        <Route path ='forget' element={<Forget/>}/>
         <Route path='login' element={<Login/>}/>
         <Route path ='privacy' element={<Privacy/>}/>
         <Route path='product' element={<Product/>}/>

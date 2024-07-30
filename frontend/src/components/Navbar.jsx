@@ -1,23 +1,24 @@
+import '../Styles/navbar.css'
 function Navbar() {
-    return <div>
+    return <div className="navbar">
         <navbar>
             <nav>
                 <div>
-                    <span>Exclusive</span>
+                    
                 </div>
-                <div>
-                    <a href="/">Home</a>
-                    <a href="/contact">Contact</a>
-                    <a href="/about">About</a>
-                    <a href="/signup">Sign Up</a>
-                </div>
-                <div>
-                    <input type="text" placeholder="What are you looking for?" />
+                <div className='nav-bar'>
+                    <span className = "bold-nav">Exclusive</span>
+                    <div><a href="/">Home</a></div>
+                    <div><a href="/contact">Contact</a></div>
+                    <div><a href="/about">About</a></div>
+                    <div><a href="/signup">Sign Up</a></div>
+                    <input type="text" placeholder="What are you looking for?" size="30" />
                     <button>
                         <i></i>
                     </button>
-                </div>
-                <div>
+                    <button>
+                        <i></i>
+                    </button>
                     <button>
                         <i></i>
                     </button>
