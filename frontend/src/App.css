@@ -1,0 +1,9 @@
+.page-layout {
+  display: flex;
+  flex-direction: column;
+}
+
+.page-body{
+    padding-bottom: 160px;
+    flex: 1;
+}

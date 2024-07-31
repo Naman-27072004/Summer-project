@@ -59,7 +59,7 @@ function Footer() {
         </form>
         <ul>
         <li>
-          <a href="#"><svg width="{24}" height="{24}">
+          <a href="../../public/assets/e-commerce.png"><svg width="{24}" height="{24}">
               <use /></svg></a>
         </li>
         <li>

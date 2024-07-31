@@ -4,10 +4,11 @@
     display: grid;
     gap: 10px;
     padding: 10px;
+
     grid-template-columns: 1fr 1fr 1fr 1fr;
     max-height: 160px;
     bottom: 0;
-    position: absolute;
+    position: fixed;
     width: 100%;
 }
 
@@ -15,7 +16,7 @@
     background-color: black;
     color: grey;
     text-align: center;
-    position: absolute;
+    position:  absolute;
     bottom: 0;
     margin-right:40%;
     margin-left: 40%;
