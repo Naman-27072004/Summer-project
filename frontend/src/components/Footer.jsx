@@ -1,4 +1,5 @@
 import '../Styles/footer.css'
+import { LuSendHorizonal } from "react-icons/lu";
 function Footer() {
     return <div>
   <footer>
@@ -52,14 +53,14 @@ function Footer() {
         <form>
           <h5>Subscribe</h5>
           <p>Get 10% off your first order</p>
-          <div>
-            <input id="newsletter1" type="text" placeholder="Enter Your Email" />
-            <button type="button"><i></i></button>
+          <div className='send-bar'>
+            <input id="newsletter1" type="text" placeholder="Enter Your Email" className='send-email'  />
+            <button type="button"><LuSendHorizonal/></button>
           </div>
         </form>
         <ul>
         <li>
-          <a href="../../public/assets/e-commerce.png"><svg width="{24}" height="{24}">
+          <a href=""><svg width="{24}" height="{24}">
               <use /></svg></a>
         </li>
         <li>
