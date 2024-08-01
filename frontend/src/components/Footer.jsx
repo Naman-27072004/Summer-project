@@ -72,7 +72,7 @@ function Footer() {
                   className="send-email"
                 />
                 <button type="button">
-                  <LuSendHorizonal />
+                  <LuSendHorizonal size={20} />
                 </button>
               </div>
             </form>
@@ -80,17 +80,17 @@ function Footer() {
               <ul className="social">
                 <li>
                   <a href="#">
-                    <FaFacebookF />
+                    <FaFacebookF size={25}/>
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <CiTwitter />
+                    <CiTwitter size={25}/>
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <FaInstagram />
+                    <FaInstagram size={25}/>
                   </a>
                 </li>
               </ul>

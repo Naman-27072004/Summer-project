@@ -1,4 +1,9 @@
 import "../Styles/navbar.css";
+import { CiSearch } from "react-icons/ci";
+import { CiHeart } from "react-icons/ci";
+import { CiShoppingCart } from "react-icons/ci";
+import { CiUser } from "react-icons/ci";
+
 function Navbar() {
   return (
     <div className="navbar">
@@ -27,29 +32,23 @@ function Navbar() {
             />
             <button>
               <a>
-                <img src="../../public/assets/search.png" alt="search logo" className="search-logo" />
+              <CiSearch size={25}/>
               </a>
             </button>
             </div>
             <button>
               <a href="/wishlist">
-                <img
-                  src="../../public/assets/e-commerce.png"
-                  alt="wishlist logo"
-                />
+                <CiHeart size={25}/>
               </a>
             </button>
             <button>
               <a href="/cart">
-                <img
-                  src="../../public/assets/shopping-cart.png"
-                  alt="shopping cart logo"
-                />
+                <CiShoppingCart size={25}/>
               </a>
             </button>
             <button>
               <a href="/account">
-                <img src="../../public/assets/user.png" alt="user logo" />
+                <CiUser size={25}/>
               </a>
             </button>
           </div>
