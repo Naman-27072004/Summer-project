@@ -23,7 +23,7 @@ app.use(morgan('dev'));
 app.use('/api/v1/test',require("./routes/testRoutes"));
 
 //port
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 8080;
 
 
 //listen
