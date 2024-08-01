@@ -23,10 +23,11 @@ app.use(morgan('dev'));
 app.use('/api/v1/test',require("./routes/testRoutes"));
 
 //port
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT;
+const DEV_MODE = process.env.DEV_MODE;
 
 
 //listen
 app.listen(PORT,()=>{
-    console.log(`Node server is running on port : http://localhost:${PORT}/api/v1/test`);
+    console.log(`Node server is running in ${DEV_MODE} on port : http://localhost:${PORT}/api/v1/test`);
 });

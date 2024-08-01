@@ -8,6 +8,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { TbTruckDelivery } from "react-icons/tb";
 import { RiCustomerService2Fill } from "react-icons/ri";
 import { MdAssuredWorkload } from "react-icons/md";
+import '../Styles/about.css'
 
 function About() {
     return <div>
@@ -18,22 +19,22 @@ function About() {
 
         <div className="about-us">
             <div>
-                <CiShop/>
+                <CiShop className="about-logo" size={25}/>
                 <p>amount of sellers</p>
                 <p>Sellers active at our site</p>
             </div>
             <div>
-                <CiDollar/>
+                <CiDollar className="about-logo" size={25}/>
                 <p>amount of sale</p>
                 <p>Monthly sale</p>
             </div>
             <div>
-                <MdOutlineShoppingBag/>
+                <MdOutlineShoppingBag className="about-logo" size={25}/>
                 <p>amount of customer</p>
                 <p>Customer active at our site</p>
             </div>
             <div>
-                <FaSackDollar/>
+                <FaSackDollar className="about-logo" size={25}/>
                 <p>amount of sale</p>
                 <p>Yearly sale</p>
             </div>
@@ -41,52 +42,53 @@ function About() {
 
         <div className="founder">
             <div>
-                <img src="" alt=""/>
+                <img src="" alt="" />
                 <p>Ritik</p>
                 <p>designation</p>
-                <CiTwitter/>
-                <FaInstagram/>
-                <FaLinkedinIn/>
+                <div className="social-media"><CiTwitter />
+                    <FaInstagram />
+                    <FaLinkedinIn /></div>
+
             </div>
             <div>
-                <img src="" alt=""/>
+                <img src="" alt="" />
                 <p>Naman</p>
                 <p>designation</p>
-                <CiTwitter/>
-                <FaInstagram/>
-                <FaLinkedinIn/>
+                <div className="social-media"><CiTwitter />
+                    <FaInstagram />
+                    <FaLinkedinIn /></div>
             </div>
             <div>
-                <img src="" alt=""/>
+                <img src="" alt="" />
                 <p>Shitij</p>
                 <p>designation</p>
-                <CiTwitter/>
-                <FaInstagram/>
-                <FaLinkedinIn/>
+                <div className="social-media"><CiTwitter />
+                    <FaInstagram />
+                    <FaLinkedinIn /></div>
             </div>
             <div>
-                <img src="" alt=""/>
+                <img src="" alt="" />
                 <p>Kushang</p>
                 <p>designation</p>
-                <CiTwitter/>
-                <FaInstagram/>
-                <FaLinkedinIn/>
+                <div className="social-media"><CiTwitter />
+                    <FaInstagram />
+                    <FaLinkedinIn /></div>
             </div>
         </div>
 
-        <div className="our-terms">
+        <div className="our-term about-us">
             <div>
-                <TbTruckDelivery/>
+                <TbTruckDelivery className="about-logo" size={25}/>
                 <p>FREE AND FAST DELIVERY</p>
                 <p>Free delivery for all orders over amount</p>
             </div>
             <div>
-                <RiCustomerService2Fill/>
+                <RiCustomerService2Fill className="about-logo" size={25}/>
                 <p>24/7 CUSTOMER SERVICE</p>
                 <p>Friendly 24/7 customer support</p>
             </div>
             <div>
-                <MdAssuredWorkload/>
+                <MdAssuredWorkload className="about-logo" size={25}/>
                 <p>MONEY BACK GUARANTEE</p>
                 <p>We return money within 30 days</p>
             </div>

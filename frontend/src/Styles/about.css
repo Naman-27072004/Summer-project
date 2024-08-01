@@ -1,0 +1,37 @@
+.about-us{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 10px;
+    
+}
+.about-us div{
+    border:0.5px solid grey;
+    margin:10px;
+    text-align: center;
+    justify-content:center;
+    border-radius: 5px;
+}
+
+.founder{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 10px;
+}
+
+.social-media{
+    display:grid;
+    grid-template-columns: 0.1fr 0.1fr 0.1fr;
+    padding: 2px;
+}
+
+.our-terms{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    padding: 10px;
+
+}
+
+.about-logo{
+    margin: 0 45%;
+    height: 50px;
+}
