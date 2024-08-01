@@ -11,6 +11,12 @@
     grid-template-columns: 2fr 0.5fr 0.5fr 0.5fr 0.5fr 2fr 0.1fr 0.1fr 0.1fr 0.1fr;
 }
 
+.nav-bar img{
+    height: 50px;
+    width: 80px;
+    
+}
+
 .bold-nav{
     font-weight: bold;
     text-align: center;

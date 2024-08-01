@@ -11,7 +11,7 @@ function Navbar() {
         <nav>
           <div></div>
           <div className="nav-bar">
-            <span className="bold-nav">Exclusive</span>
+          <img src="assets/Tech_Bazar_wh.jpeg" alt=""/>
             <div>
               <a href="/">Home</a>
             </div>
