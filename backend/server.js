@@ -3,6 +3,10 @@ const dotenv = require('dotenv');
 const colors = require('colors');
 const morgan = require('morgan');
 const cors = require('cors');
+const connectDB = require("./config/db");
+
+//mongodb connection
+connectDB();
 
 //dot config
 dotenv.config();
@@ -19,10 +23,10 @@ app.use(morgan('dev'));
 app.use('/api/v1/test',require("./routes/testRoutes"));
 
 //port
-const PORT = process.env.PORT || 8080;
-const DEV_MODE = process.env.DEV_mode || "development";
+const PORT = process.env.PORT || 8000;
+
 
 //listen
 app.listen(PORT,()=>{
-    console.log(`Node server is running in ${DEV_MODE} Mode on port : http://localhost:${PORT}/api/v1/test`.bgBlue.white);
+    console.log(`Node server is running on port : http://localhost:${PORT}/api/v1/test`);
 });
