@@ -6,7 +6,8 @@
     padding: 10px;
   
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    max-height: 160px;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    max-height: 250px;
     bottom: 0;
     position: fixed;
     width: 100%;

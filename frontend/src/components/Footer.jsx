@@ -46,6 +46,13 @@ function Footer() {
                 <a href="/term">Terms Of Use</a>
               </li>
               <li>
+                <a href="/refund">Refund Policy</a>
+              </li>
+              <li>
+                <a href="/shipping">Shipping Policy</a>
+              </li>
+              
+              <li>
                 <a href="/faq">FAQ</a>
               </li>
               <li>

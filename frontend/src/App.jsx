@@ -12,6 +12,8 @@ import Homepage from './pages/homepage'
 import Login from './pages/login'
 import Privacy from './pages/privacy'
 import Product from './pages/product'
+import Refund from './pages/refund'
+import Shipping from './pages/shipping'
 import Signup from './pages/signup'
 import Term from './pages/term'
 import Wishlist from './pages/wishlist'
@@ -43,6 +45,8 @@ function App() {
             <Route path='login' element={<Login />} />
             <Route path='privacy' element={<Privacy />} />
             <Route path='product' element={<Product />} />
+            <Route path ='refund' element={<Refund/>}/>
+            <Route path ='shipping' element={<Shipping/>}/>
             <Route path='signup' element={<Signup />} />
             <Route path='term' element={<Term />} />
             <Route path='wishlist' element={<Wishlist />} />
