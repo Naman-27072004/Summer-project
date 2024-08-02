@@ -1,59 +1,14 @@
 const mongoose = require("mongoose")
 
 
-const userSchema = new mongoose.Schema({
-    role:{
-        type:string,
-        reuired:[true,"role is required"],
-        enum:["admin","organization","user","hospital"]
+const userSchema = new mongoose.Schema(
+    {
+        username: {type: String,required: true, unique : true},
+        email: {type: String, required:true, unique: true},
+        password: {type: String,required: true,},
+        isAdmin: {type: Boolean,default: false,},
     },
-    name:{
-        type:string,
-        required:function(){
-            if(this.role === 'user' || this.role === 'admin'){
-                return true
-            }
-            return false
-        }
-    },
-    organisationname:{
-        type:string,
-        required:function(){
-            if(this.role === 'organisation'){
-                return true
-            }
-            return false
-        }
-    },
-    hospitalName:{
-        type:string,
-        required:function(){
-            if(this.role === 'hospital'){
-                return true
-            }
-            return false
-        }
-    },
-    email:{
-        type:string,
-        required: [true, "email is required"],
-        unique:true
-    },
-    password:{
-        type:string,
-        required:[true,"password is required"],
-    },
-    website:{
-        type:string,
-    },
-    address:{
-        type:string,
-        required:[true,"address is required"],
-    },
-    phone:{
-        type:string,
-        required:[true,"phone number is required"],
-    }
-}, {timestamps:true});
+    { timestamps: true }
+);
 
 module.exports = mongoose.model('users',userSchema)
