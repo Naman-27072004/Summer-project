@@ -1,0 +1,57 @@
+.terms-container {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  .terms-title {
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+  }
+  
+  .terms-effective-date {
+    font-size: 1.2em;
+    color: #777;
+  }
+  
+  .terms-paragraph {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .terms-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .terms-list-item {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  .terms-sublist {
+    list-style-type: none;
+    padding-left: 20px;
+  }
+  
+  .terms-sublist-item {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  .terms-subsublist {
+    list-style-type: none;
+    padding-left: 20px;
+  }
+  
+  .terms-subsublist-item {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }

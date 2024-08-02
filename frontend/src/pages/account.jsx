@@ -1,7 +1,7 @@
 import '../Styles/account.css'
 function User() {
     return <div>
-        <div className="container1">
+        <div className="containers1">
             <div className="sidebar">
                 <h5>Manage My Account</h5>
                 <ul>

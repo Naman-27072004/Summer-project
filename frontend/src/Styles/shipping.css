@@ -1,56 +1,56 @@
-.privacy-policy-container {
+.shipping-policy-container {
     font-family: Arial, sans-serif;
     margin: 20px;
     padding: 20px;
     
   }
   
-  .privacy-policy-title {
+  .shipping-policy-title {
     font-size: 2em;
     color: #333;
     margin-bottom: 10px;
   }
   
-  .privacy-policy-date {
+  .shipping-policy-date {
     font-size: 1.2em;
     color: #777;
     margin-bottom: 20px;
   }
   
-  .privacy-policy-intro {
+  .shipping-policy-welcome {
     font-size: 1em;
     color: #555;
     line-height: 1.6;
     margin-bottom: 20px;
   }
   
-  .privacy-policy-section-title {
+  .shipping-policy-section-title {
     font-size: 1.5em;
     color: #333;
     margin-top: 20px;
     margin-bottom: 10px;
   }
   
-  .privacy-policy-list {
+  .shipping-policy-list {
     list-style-type: none;
     padding: 0;
   }
   
-  .privacy-policy-list-item {
+  .shipping-policy-list-item {
     font-size: 1em;
     color: #555;
     line-height: 1.6;
     margin-bottom: 10px;
   }
   
-  .privacy-policy-paragraph {
+  .shipping-policy-paragraph {
     font-size: 1em;
     color: #555;
     line-height: 1.6;
     margin-bottom: 20px;
   }
   
-  .privacy-policy-contact {
+  .shipping-policy-contact {
     font-style: normal;
     font-size: 1em;
     color: #555;
@@ -58,9 +58,8 @@
     margin-bottom: 20px;
   }
   
-  .privacy-policy-thanks {
+  .shipping-policy-thanks {
     font-size: 1em;
     color: #555;
     line-height: 1.6;
   }
-  

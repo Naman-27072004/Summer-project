@@ -1,37 +1,78 @@
-.about-us{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding: 10px;
-    
+.heading {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
 }
-.about-us div{
-    border:0.5px solid grey;
-    margin:10px;
-    text-align: center;
-    justify-content:center;
-    border-radius: 5px;
+.paragraph {
+  margin-bottom: 20px;
+  line-height: 1.5;
+  text-align: center;
 }
 
-.founder{
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding: 10px;
+p {
+  font-size: 16px;
+  line-height: 1.5;
 }
 
-.social-media{
-    display:grid;
-    grid-template-columns: 0.1fr 0.1fr 0.1fr;
-    padding: 2px;
+.about-us {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
 }
 
-.our-terms{
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-    padding: 10px;
-
+.about-us-item {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  width: 200px;
+  margin: 5px;
+  background-color: #fff;
 }
 
-.about-logo{
-    margin: 0 45%;
-    height: 50px;
+.about-us-item.highlighted {
+  background-color: #ff4d4d;
+  color: #fff;
+}
+
+.about-us-item .about-logo {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.amount {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.description {
+  font-size: 14px;
+  color: #777;
+}
+
+.founder {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.founder-item {
+  text-align: center;
+  margin: 20px;
+}
+
+.founder-item img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
 }

@@ -12,6 +12,10 @@
     position: fixed;
     width: 100%;
   }
+  .footer h5 {
+    
+    font-weight: bold;
+  }
   
   .copy {
     background-color: black;

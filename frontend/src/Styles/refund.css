@@ -1,0 +1,75 @@
+.refund-policy-container {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 20px;
+}
+
+.refund-policy-title {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.refund-policy-date {
+  font-size: 1.2em;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.refund-policy-welcome {
+  font-size: 1em;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.refund-policy-section-title {
+  font-size: 1.5em;
+  color: #333;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.refund-policy-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.refund-policy-list-item {
+  font-size: 1em;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.refund-policy-sublist {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.refund-policy-sublist-item {
+  font-size: 1em;
+  color: #555;
+  line-height: 1.6;
+}
+
+.refund-policy-paragraph {
+  font-size: 1em;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.refund-policy-contact {
+  font-style: normal;
+  font-size: 1em;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.refund-policy-thanks {
+  font-size: 1em;
+  color: #555;
+  line-height: 1.6;
+}
