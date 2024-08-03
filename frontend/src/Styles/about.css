@@ -29,6 +29,12 @@ p {
   width: 200px;
   margin: 5px;
   background-color: #fff;
+  border-radius: 10px;
+}
+
+.about-us-item:hover {
+  background-color: #ff4d4d;
+  color: white;
 }
 
 .about-us-item.highlighted {

@@ -2,8 +2,8 @@
 import '../Styles/signup.css'
 function Signup() {
     return <div className="sign-up">
-    <h1>Create an account!</h1>
-    <p>Enter your details below:</p>
+    <h1>Create an account</h1>
+    <p>Enter your details below</p>
     <form>
       <div className="inputs-group">
         <input type="text" name="Name" placeholder="Name" />
@@ -16,7 +16,7 @@ function Signup() {
       </div>
       <button type="submit" className="sign-button">Create Account</button>
       <p className="para">
-        Already have an account?<a href="/login">Log In</a>
+        Already have an account? <a href="/login">Log In</a>
       </p>
     </form>
   </div>

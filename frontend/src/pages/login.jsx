@@ -10,9 +10,11 @@ function Login() {
             <div className="input-group">
                 <input type="password" placeholder="Password" />
             </div>
-            <button type="submit" className="login-button ">Log In</button>
+
         </form>
         <div className="forgot-password">
+            <button type="submit" className="login-button ">Log In</button>
+            <p></p>
             <a href="/account">Forget Password?</a>
         </div>
     </div>

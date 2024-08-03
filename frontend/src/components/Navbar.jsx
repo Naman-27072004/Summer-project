@@ -19,7 +19,7 @@ function Navbar() {
               <a href="/contact">Contact</a>
             </div>
             <div>
-              <a href="/about">About</a>
+              <a href="/about">About Us</a>
             </div>
             <div>
               <a href="/signup">Sign Up</a>

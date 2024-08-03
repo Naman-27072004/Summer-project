@@ -8,10 +8,10 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { TbTruckDelivery } from "react-icons/tb";
 import { RiCustomerService2Fill } from "react-icons/ri";
 import { MdAssuredWorkload } from "react-icons/md";
-import avatar5 from "../../public/assets/avatar5.jpg"
-import avatar6 from "../../public/assets/avatar6.jpg"
-import avatar7 from "../../public/assets/avatar7.jpg"
-import avatar8 from "../../public/assets/avatar8.jpg"
+import avatar5 from "/assets/avatar5.jpg"
+import avatar6 from "/assets/avatar6.jpg"
+import avatar7 from "/assets/avatar7.jpg"
+import avatar8 from "/assets/avatar8.jpg"
 
 import "../Styles/about.css";
 

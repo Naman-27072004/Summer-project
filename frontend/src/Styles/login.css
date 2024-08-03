@@ -35,9 +35,12 @@
   }
   .forgot-password {
     margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
   }
   .forgot-password a {
     color: #ff4c4c;
     text-decoration: none;
     font-size: 14px;
+    margin-top: 10%;
   }

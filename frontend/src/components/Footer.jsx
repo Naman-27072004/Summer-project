@@ -12,9 +12,9 @@ function Footer() {
           <div>
             <h5>Support</h5>
             <ul>
-              <li>address</li>
-              <li>email</li>
-              <li>phone. number.</li>
+              <li>Remote</li>
+              <li>techbazaar2025@gmail.com</li>
+              <li>+91 9999999999 </li>
             </ul>
           </div>
           <div>
