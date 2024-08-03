@@ -11,7 +11,7 @@ function Navbar() {
         <nav>
           <div></div>
           <div className="nav-bar">
-          <img src="assets/Tech_Bazar_wh.jpeg" alt=""/>
+          <img src="assets/Tech_Bazar_wh.png" alt=""/>
             <div>
               <a href="/">Home</a>
             </div>

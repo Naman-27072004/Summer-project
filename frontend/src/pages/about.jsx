@@ -21,9 +21,9 @@ function About() {
       <div>
         <h1 className="heading">Our Story</h1>
         <p className="paragraph">
-          Welcome to Electrohub, your premier online store for top-quality
+          Welcome to Tech Bazaar, your premier online store for top-quality
           electronic items. From the latest smartphones and laptops to
-          cutting-edge home appliances and accessories, ElectroHub offers a vast
+          cutting-edge home appliances and accessories, Tech Bazaar offers a vast
           selection of products to meet all your tech needs. Our website is
           designed for easy navigation, allowing you to quickly find and compare
           the newest gadgets and best brands. With secure payment options, fast

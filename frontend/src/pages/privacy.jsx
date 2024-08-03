@@ -23,7 +23,7 @@ function Privacy() {
         <strong>To Process Transactions:</strong> We use your personal information to process and fulfill your orders, communicate with you about your purchases, and provide customer support.
       </li>
       <li className="privacy-policy-list-item">
-        <strong>To Improve Our Services:</strong> We may use non-personal information to analyze site usage, enhance our website's functionality, and improve our products and services.
+        <strong>To Improve Our Services:</strong> We may use non-personal information to analyze site usage, enhance our websites functionality, and improve our products and services.
       </li>
       <li className="privacy-policy-list-item">
         <strong>Marketing Communications:</strong> With your consent, we may send you promotional emails about new products, special offers, and other updates. You can opt-out of these communications at any time.

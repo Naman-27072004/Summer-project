@@ -5,7 +5,7 @@ function Refund(){
     <h1 className="refund-policy-title">Refund Policy</h1>
     <p className="refund-policy-date"><strong>Effective Date:</strong> [Insert Date]</p>
     <p className="refund-policy-welcome">
-      Thank you for shopping at ElectroHub. We are committed to ensuring your satisfaction with your purchase. If you are not completely satisfied, we are here to help.
+      Thank you for shopping at Tech Bazaar. We are committed to ensuring your satisfaction with your purchase. If you are not completely satisfied, we are here to help.
     </p>
     
     <h2 className="refund-policy-section-title">1. Returns</h2>
@@ -64,13 +64,13 @@ function Refund(){
       If you have any questions about our refund policy or need assistance with a return, please contact us at:
     </p>
     <address className="refund-policy-contact">
-      ElectroHub<br />
+      Tech Bazaar<br />
       [Insert Address]<br />
       Email: [Insert Email]<br />
       Phone: [Insert Phone Number]
     </address>
     <p className="refund-policy-thanks">
-      Thank you for choosing ElectroHub. We value your business and strive to provide the best possible service.
+      Thank you for choosing Tech Bazaar. We value your business and strive to provide the best possible service.
     </p>
   </div>
   </div>

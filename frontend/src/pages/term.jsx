@@ -7,14 +7,14 @@ function Term() {
     <h2 className="terms-effective-date">Effective Date: [Insert Date]</h2>
     <br />
     <p className="terms-paragraph">
-      Welcome to ElectroHub. These Terms of Use govern your access to and use
+      Welcome to Tech Bazaar. These Terms of Use govern your access to and use
       of our website and services. By using our website, you agree to comply
       with and be bound by these terms. Please read them carefully.
     </p>
     <br />
     <ul className="terms-list">
       <li className="terms-list-item">
-        <strong>Acceptance of Terms:</strong> By accessing or using the ElectroHub website, you
+        <strong>Acceptance of Terms:</strong> By accessing or using the Tech Bazaar website, you
         agree to these Terms of Use and our Privacy Policy. If you do not
         agree, please do not use our website.
       </li>
@@ -123,7 +123,7 @@ function Term() {
 
       <li className="terms-list-item">
         <strong>Intellectual Property:</strong> All content on our website, including text,
-        graphics, logos, images, and software, is the property of ElectroHub
+        graphics, logos, images, and software, is the property of Tech Bazaar
         or its licensors and is protected by copyright, trademark, and other
         intellectual property laws. You may not use any content without our
         prior written permission.
@@ -132,7 +132,7 @@ function Term() {
 
       <li className="terms-list-item">
         <strong>Limitation of Liability:</strong> To the fullest extent permitted by law,
-        ElectroHub shall not be liable for any indirect, incidental, special,
+        Tech Bazaar shall not be liable for any indirect, incidental, special,
         consequential, or punitive damages arising out of or related to your
         use of the website or purchase of products, even if we have been
         advised of the possibility of such damages.
@@ -141,7 +141,7 @@ function Term() {
 
       <li className="terms-list-item">
         <strong>Indemnification:</strong> You agree to indemnify, defend, and hold harmless
-        ElectroHub and its affiliates, officers, directors, employees, and
+        Tech Bazaar and its affiliates, officers, directors, employees, and
         agents from any claims, liabilities, damages, losses, and expenses
         arising out of or related to your use of the website or violation of
         these terms.
@@ -166,8 +166,8 @@ function Term() {
 
       <li className="terms-list-item">
         <strong>Contact Us:</strong> If you have any questions about these Terms of Use, please
-        contact us at: ElectroHub [Insert Address] Email: [Insert Email]
-        Phone: [Insert Phone Number] Thank you for shopping with ElectroHub.
+        contact us at: Tech Bazaar [Insert Address] Email: [Insert Email]
+        Phone: [Insert Phone Number] Thank you for shopping with Tech Bazaar.
         We appreciate your business and strive to provide you with the best
         service possible.
       </li>
