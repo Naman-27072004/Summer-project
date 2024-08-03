@@ -3,6 +3,7 @@ import { LuSendHorizonal } from "react-icons/lu";
 import { FaFacebookF } from "react-icons/fa";
 import { CiTwitter } from "react-icons/ci";
 import { FaInstagram } from "react-icons/fa";
+import { CiYoutube } from "react-icons/ci";
 function Footer() {
   return (
     <div>
@@ -51,7 +52,7 @@ function Footer() {
               <li>
                 <a href="/shipping">Shipping Policy</a>
               </li>
-              
+
               <li>
                 <a href="/faq">FAQ</a>
               </li>
@@ -79,18 +80,23 @@ function Footer() {
             <div >
               <ul className="social">
                 <li>
-                  <a href="#">
-                    <FaFacebookF size={25}/>
+                  <a href="https://www.facebook.com/share/77wPKKHPbhiJtyMi/?mibextid=qi2Omg" target="_blank">
+                    <FaFacebookF size={25} />
                   </a>
                 </li>
                 <li>
-                  <a href="#">
-                    <CiTwitter size={25}/>
+                  <a href="https://x.com/TechBazaar2025?t=WkQZy0CHM7ImWD2YAU7Daw&s=08" target="_blank">
+                    <CiTwitter size={25} />
                   </a>
                 </li>
                 <li>
-                  <a href="#">
-                    <FaInstagram size={25}/>
+                  <a href="https://www.instagram.com/techbazaar2025?igsh=cGc3aGRmMzRyc25t" target="_blank">
+                    <FaInstagram size={25} />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://youtube.com/@techbazaar2025?si=6YhKNWAoVp62zLZ_" target="_blank">
+                  <CiYoutube size={25} />
                   </a>
                 </li>
               </ul>
