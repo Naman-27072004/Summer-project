@@ -5,6 +5,8 @@ import { CiTwitter } from "react-icons/ci";
 import { FaInstagram } from "react-icons/fa";
 import { CiYoutube } from "react-icons/ci";
 function Footer() {
+  const currentDate = new Date();
+  const year = currentDate.getFullYear();
   return (
     <div>
       <footer>
@@ -96,14 +98,14 @@ function Footer() {
                 </li>
                 <li>
                   <a href="https://youtube.com/@techbazaar2025?si=6YhKNWAoVp62zLZ_" target="_blank">
-                  <CiYoutube size={25} />
+                    <CiYoutube size={25} />
                   </a>
                 </li>
               </ul>
             </div>
           </div>
           <div className="copy">
-            <p>© 2024 Company, Inc. All rights reserved.</p>
+            <p>© {year} Company, Inc. All rights reserved.</p>
           </div>
         </div>
       </footer>
