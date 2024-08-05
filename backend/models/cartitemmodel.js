@@ -1,11 +1,11 @@
 const mongoose = require("mongoose")
 
 
-const cartitemSchema = new mongoose.Schema(
+const cart_itemSchema = new mongoose.Schema(
     {
         items:[]
     },
     { timestamps: true }
 );
 
-module.exports = mongoose.model('cartitems',cartitemSchema)
+module.exports = mongoose.model('cart_items',cart_itemSchema)

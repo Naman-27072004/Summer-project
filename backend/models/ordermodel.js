@@ -1,17 +1,17 @@
 const mongoose = require("mongoose")
 
 
-const oredrSchema = new mongoose.Schema(
+const orderSchema = new mongoose.Schema(
     {
-        paymentmethod:{type:String,required:true},
-        paidat:{type:Number,required:true},
-        totalprice:{type:Number,required:true},
-        ispaid:{type:String,required:true},
-        isdelivered:{type:Boolean,default: false},
-        deliveredat:{type:Boolean,default: false},
-        orderitems:[],
-        shippingaddress:{type:String,required:true},
-        paymentresult:[],
+        payment_method:{type:String,required:true},
+        paid_at:{type:Number,required:true},
+        total_price:{type:Number,required:true},
+        is_paid:{type:String,required:true},
+        is_delivered:{type:Boolean,default: false},
+        delivered_at:{type:Boolean,default: false},
+        order_items:[],
+        shipping_address:{type:String,required:true},
+        payment_result:[],
         quantity:{type:Number,required:true}
     },
     { timestamps: true }
