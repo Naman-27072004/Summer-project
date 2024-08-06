@@ -12,6 +12,7 @@ import Faq from './pages/faq'
 import Homepage from './pages/homepage'
 import Login from './pages/login'
 import Order from './pages/order'
+import Premium from './pages/premium'
 import Privacy from './pages/privacy'
 import Product from './pages/product'
 import Profile from './pages/profile'
@@ -50,6 +51,7 @@ function App() {
             <Route path='faq' element={<Faq />} />
             <Route path='login' element={<Login />} />
             <Route path='order' element={<Order />} />
+            <Route path='premium' element={<Premium/>}/>
             <Route path='privacy' element={<Privacy />} />
             <Route path='product' element={<Product />} />
             <Route path='profile' element={<Profile />} />

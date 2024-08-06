@@ -1,0 +1,63 @@
+.billing-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 10%;
+}
+
+.billing-details{
+    padding: 10%;
+    margin: 10%;
+}
+
+.order-summary{
+    padding: 10%;
+    margin: 10%;
+    margin-left: 0;
+}
+
+.billing-details h1{
+    font-size: 25px ;
+    font-weight: bold;
+}
+
+.billing-form input{
+    background-color: #F5F5F5;
+    outline: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+.billing-form textarea{
+    background-color: #F5F5F5;
+    outline: none;
+    padding: 10px;
+    margin: 10px;
+}
+.order-summary button{
+    background-color: #ff4c4c;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.coupon input{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.summary Span{
+    padding: 10px;
+    margin: 10px;
+}
+
+.payment-methods img{
+    height: 20px;
+}
+
+.billing-form{
+    padding: 10px;
+    margin: 10px;
+}
