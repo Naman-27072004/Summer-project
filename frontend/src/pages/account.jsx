@@ -50,7 +50,7 @@ function User() {
                     <input type="password" name="confirm_password" placeholder="Confirm New Password" onChange={(e) => setConfirmedPass(e.target.value)}/>
                     <div className="buttons">
                         <button type="button" className="cancel">Cancel</button>
-                        <button type="submit" className="save" onChange={handleSubmit}>Save Changes</button>
+                        <button type="submit" className="save" onClick={handleSubmit}>Save Changes</button>
                     </div>
                 </form>
             </div>

@@ -90,7 +90,7 @@ function Payment() {
                 <input type="text" placeholder="Coupon Code" onChange={(e) => setCouponCode(e.target.value)}/>
                 <button>Apply Coupon</button>
             </div>
-            <button className="place-order" onChange={handleSubmit}>Place Order</button>
+            <button className="place-order" onClick={handleSubmit}>Place Order</button>
         </div>
     </div>
 }

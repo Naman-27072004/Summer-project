@@ -8,6 +8,7 @@ const Users = require("./models/user_model")
 const Contact = require("./models/contact_model")
 const Manage = require("./models/manage_model")
 const Checkout = require("./models/checkout_model")
+const Product = require("./models/product_model")
 //mongodb connection
 connectDB();
 
@@ -75,6 +76,13 @@ app.post('/checkout',(req,res)=>{
         .then(User => res.json(User))
         .catch(err => res.json(err))
 })
+
+app.post('/list', (req, res) => {
+    Product.create(req.body)
+        .then(User => res.json(User))
+        .catch(err => res.json(err))
+})
+
 
 
 
