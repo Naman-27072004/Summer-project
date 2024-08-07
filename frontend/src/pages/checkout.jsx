@@ -98,4 +98,4 @@ export default Payment;
 {/* <img src='../../public/assets/UPI.png'/>
 <img src='../../public/assets/visa.png'/>
 <img src='../../public/assets/Amex.png'/>
-<img src='../../public/assets/netb.png'/> */}
+<img src='../../public/assets/net_b.png'/> */}

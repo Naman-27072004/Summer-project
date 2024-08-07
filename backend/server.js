@@ -4,10 +4,10 @@ const colors = require('colors');
 const morgan = require('morgan');
 const cors = require('cors');
 const connectDB = require("./config/db");
-const Users = require("./models/usermodel")
-const Contact = require("./models/contactmodel")
-const Manage = require("./models/managemodel")
-const Checkout = require("./models/checkoutmodel")
+const Users = require("./models/user_model")
+const Contact = require("./models/contact_model")
+const Manage = require("./models/manage_model")
+const Checkout = require("./models/checkout_model")
 //mongodb connection
 connectDB();
 
