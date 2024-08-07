@@ -1,27 +1,47 @@
+import { useState } from 'react';
 import '../Styles/checkout.css'
 // import { BsCreditCard2BackFill } from "react-icons/bs";
+import { useNavigate } from 'react-router-dom';
+import axios from 'axios'
 function Payment() {
+    const [name,setName] = useState()
+    const [street,setStreet] = useState()
+    const [floor,setFloor] = useState()
+    const [city,setCity] = useState()
+    const [phone,setPhone] = useState()
+    const [email,setEmail] = useState()
+    const [c_code,setCouponCode] = useState()
+    const navigate = useNavigate()
+    const handleSubmit = (e) => {
+        e.preventDefault()
+        axios.post('http://localhost:8080/checkout', { name, street, floor, city, phone, email,c_code })
+          .then(result => {
+            console.log(result)
+            navigate('/order')
+          })
+          .catch(err => console.log(err))
+      }
     return <div className="billing-container">
         <div className="billing-details">
             <h1>Billing Details</h1>
             <form className="billing-form">
                 <label htmlFor="firstName">First Name*</label><br />
-                <input type="text" id="firstName" required size="50"/><br />
+                <input type="text" id="firstName" required size="50"onChange={(e) => setName(e.target.value)}/><br />
 
                 <label htmlFor="streetAddress">Street Address*</label><br />
-                <textarea type="text" id="streetAddress" required /><br />
+                <textarea type="text" id="streetAddress" required onChange={(e) => setStreet(e.target.value)}/><br />
 
                 <label htmlFor="apartment">Apartment, floor, etc. (optional)</label><br />
-                <textarea type="text" id="apartment" /><br />
+                <textarea type="text" id="apartment" onChange={(e) => setFloor(e.target.value)}/><br />
 
                 <label htmlFor="city">Town/City*</label><br />
-                <input type="text" id="city" required size="50"/><br />
+                <input type="text" id="city" required size="50" onChange={(e) => setCity(e.target.value)}/><br />
 
                 <label htmlFor="phone">Phone Number*</label><br />
-                <input type="tel" id="phone" required size="50"/><br />
+                <input type="tel" id="phone" required size="50" onChange={(e) => setPhone(e.target.value)}/><br />
 
                 <label htmlFor="email">Email Address*</label><br />
-                <input type="email" id="email" required size="50"/><br />
+                <input type="email" id="email" required size="50" onChange={(e) => setEmail(e.target.value)}/><br />
 
                 <div className="save-info">
                     <input type="checkbox" id="saveInfo" />
@@ -67,10 +87,10 @@ function Payment() {
                 </div>
             </div>
             <div className="coupon">
-                <input type="text" placeholder="Coupon Code" />
+                <input type="text" placeholder="Coupon Code" onChange={(e) => setCouponCode(e.target.value)}/>
                 <button>Apply Coupon</button>
             </div>
-            <button className="place-order">Place Order</button>
+            <button className="place-order" onChange={handleSubmit}>Place Order</button>
         </div>
     </div>
 }

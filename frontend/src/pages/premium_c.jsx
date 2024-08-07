@@ -1,9 +1,9 @@
-import '../Styles/premium.css'
-function Premium() {
-    return <div>
+import '../Styles/premium_c.css'
+function Premium_c(){
+    return<div>
         <div className="membership-options_pp">
-            <h1>Membership Options</h1>
-            <p>Choose the plan thats right for you.</p>
+            <h1>Membership Option</h1>
+            <p>Happy costumer</p>
             <div className="plans_pp">
                 {/* <div className="plan_pp">
                     <h2>Basic</h2>
@@ -29,18 +29,18 @@ function Premium() {
                 <div className="plan_pp">
                     <h2>Premium</h2>
                     <ul>
-                        <li>✔ Sell unlimited Products</li>
-                        <li>✔ Less transaction fees</li>
+                        <li>✔ Upto 10% extra discount on all products</li>
+                        <li>✔ Daily and hourly offers for premium members</li>
+                        <li>✔ Early access to all the offers and sales</li>
                         <li>✔ 24/7 support</li>
-                        <li>✔ Discount codes</li>
-                        <li>✔ Multiple inventory locations</li><hr/>
+                        <li>✔ Get a cashback on every order</li><hr/>
                     </ul>
-                    <p className="price_pp">₹ 999<br /><span>per month</span></p>
-                    <button>Subscribe Now</button>
+                    <p className="price_pp">₹ 499<br /><span>per month</span></p>
+                    <button><a href='/checkout'>Subscribe Now</a></button>
+                    
                 </div>
             </div>
         </div>
-
     </div>
 }
-export default Premium
+export default Premium_c

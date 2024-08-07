@@ -20,6 +20,15 @@ function Login() {
             })
             .catch(err => console.log(err))
     }
+
+    // const handleClick = (e) => {
+    //     e.preventDefault()
+    //     .then(()=>{
+    //         navigate('/account')
+    //     })
+    //     .catch(err => console.log(err))
+    // }
+
     return <div className="container">
         <h1>Log in to Exclusive</h1>
         <p>Enter your details below</p>
@@ -32,8 +41,8 @@ function Login() {
             </div>
 
         </form>
-        <div className="forgot-password" onClick={handleSubmit}>
-            <a href='/'><button type="submit" className="login-button ">Log In</button></a>
+        <div className="forgot-password" >
+            <a href='/'><button type="submit" className="login-button " onClick={handleSubmit}>Log In</button></a>
             <p></p>
             <a href="/account">Forget Password?</a>
         </div>

@@ -20,22 +20,13 @@ function Footer() {
             </ul>
           </div>
           <div>
-            <h5>Account</h5>
+            <h5>Premium Offered</h5>
             <ul>
               <li>
-                <a href="/account">My Account</a>
+                <a href="/premium_c">Premium for costumer</a>
               </li>
               <li>
-                <a href="/login">Login</a>/<a href="/signup">Register</a>
-              </li>
-              <li>
-                <a href="/cart">Cart</a>
-              </li>
-              <li>
-                <a href="/wishlist">Wishlist</a>
-              </li>
-              <li>
-                <a href="/product">Shop</a>
+                <a href="/premium_s">Premium for seller</a>
               </li>
             </ul>
           </div>

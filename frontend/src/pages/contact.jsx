@@ -1,7 +1,25 @@
 import '../Styles/contact.css'
 import { IoCallOutline } from "react-icons/io5";
 import { CiMail } from "react-icons/ci";
+import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import axios from 'axios'
 function Contact(){
+  const [name, setName] = useState()
+  const [email, setEmail] = useState()
+  const [phone, setPhone] = useState()
+  const [message, setMessage] = useState()
+  const navigate = useNavigate()
+  
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    axios.post('http://localhost:8080/contact', { name, email, phone, message})
+      .then(result => {
+        console.log(result)
+        navigate('/')
+      })
+      .catch(err => console.log(err))
+  }
     return<div className="contact-form-container">
     <div className="contact-info">
       <div className="contact-item">
@@ -21,23 +39,25 @@ function Contact(){
         type="text"
         name="name"
         placeholder="Your Name *"
+        onChange={(e) => setName(e.target.value)}
       />
       <input
         type="email"
         name="email"
         placeholder="Your Email *"
+        onChange={(e) => setEmail(e.target.value)}
          />
       <input
         type="tel"
         name="phone"
         placeholder="Your Phone *"
+        onChange={(e) => setPhone(e.target.value)}
          />
       <textarea
         name="message"
-        placeholder="Your Message">
-
-        </textarea>
-      <button type="submit">Send Message</button>
+        placeholder="Your Message"
+        onChange={(e) => setMessage(e.target.value)}/>
+      <button type="submit" onClick={handleSubmit}>Send Message</button>
     </form>
   </div>
     }

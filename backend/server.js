@@ -5,7 +5,9 @@ const morgan = require('morgan');
 const cors = require('cors');
 const connectDB = require("./config/db");
 const Users = require("./models/usermodel")
-
+const Contact = require("./models/contactmodel")
+const Manage = require("./models/managemodel")
+const Checkout = require("./models/checkoutmodel")
 //mongodb connection
 connectDB();
 
@@ -24,6 +26,12 @@ app.use(morgan('dev'));
 // app.use('/api/v1/test',require("./routes/testRoutes"));
 
 //testing
+app.post('/signup', (req, res) => {
+    Users.create(req.body)
+        .then(User => res.json(User))
+        .catch(err => res.json(err))
+})
+
 app.post('/login', (req, res) => {
     const { email, password } = req.body;
     Users.findOne({ email: email })
@@ -42,8 +50,28 @@ app.post('/login', (req, res) => {
         .catch(err => res.json(err))
 })
 
-app.post('/signup', (req, res) => {
-    Users.create(req.body)
+app.post('/contact', (req, res) => {
+    Contact.create(req.body)
+        .then(User => res.json(User))
+        .catch(err => res.json(err))
+})
+
+// app.post('/manage',(req,res)=>{
+//     const{name,email,n_pass,c_n_pass} = req.body
+//     Manage.findOne({ name : name, email : email})
+//     .then(user =>{
+//         if(user){
+//             if(user.name === name && user.email === email)
+//             {
+//                 Users.updateOne({})
+//             }
+//         }
+//     })
+
+// })
+
+app.post('/checkout',(req,res)=>{
+    Checkout.create(req.body)
         .then(User => res.json(User))
         .catch(err => res.json(err))
 })

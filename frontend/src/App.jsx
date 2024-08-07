@@ -1,4 +1,3 @@
-
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
 import About from './pages/about'
@@ -13,12 +12,15 @@ import Homepage from './pages/homepage'
 import List from './pages/list'
 import Login from './pages/login'
 import Order from './pages/order'
-import Premium from './pages/premium'
+import Premium_c from './pages/premium_c'
+import Premium_s from './pages/premium_s'
 import Privacy from './pages/privacy'
 import Product from './pages/product'
 import Profile from './pages/profile'
 import Refund from './pages/refund'
 import Return from './pages/return'
+import Info_s from './pages/s_p_info'
+// import S_signup from './pages/s_signup'
 import Shipping from './pages/shipping'
 import Signup from './pages/signup'
 import Term from './pages/term'
@@ -42,7 +44,6 @@ function App() {
         <main className='page-body'>
           <Routes>
             <Route path='/' element={<Homepage />} />
-            <Route path='list' element={<List />} />
             <Route path='about' element={<About />} />
             <Route path='account' element={<User />} />
             <Route path='cancel' element={<Cancel />} />
@@ -51,14 +52,17 @@ function App() {
             <Route path='contact' element={<Contact />} />
             <Route path='error' element={<Error />} />
             <Route path='faq' element={<Faq />} />
+            <Route path='list' element={<List />} />
             <Route path='login' element={<Login />} />
             <Route path='order' element={<Order />} />
-            <Route path='premium' element={<Premium/>}/>
+            <Route path='premium_s' element={<Premium_s />} />
+            <Route path='premium_c' element={<Premium_c />} />
             <Route path='privacy' element={<Privacy />} />
             <Route path='product' element={<Product />} />
             <Route path='profile' element={<Profile />} />
             <Route path='refund' element={<Refund />} />
             <Route path='return' element={<Return />} />
+            <Route path='s_p_info' element={<Info_s />} />
             <Route path='shipping' element={<Shipping />} />
             <Route path='signup' element={<Signup />} />
             <Route path='term' element={<Term />} />
@@ -74,3 +78,4 @@ function App() {
 }
 
 export default App
+{/* <Route path='s_signup' element={<S_signup />} /> */}
