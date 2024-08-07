@@ -10,6 +10,7 @@ import Contact from './pages/contact'
 import Error from './pages/error'
 import Faq from './pages/faq'
 import Homepage from './pages/homepage'
+import List from './pages/list'
 import Login from './pages/login'
 import Order from './pages/order'
 import Premium from './pages/premium'
@@ -41,6 +42,7 @@ function App() {
         <main className='page-body'>
           <Routes>
             <Route path='/' element={<Homepage />} />
+            <Route path='list' element={<List />} />
             <Route path='about' element={<About />} />
             <Route path='account' element={<User />} />
             <Route path='cancel' element={<Cancel />} />

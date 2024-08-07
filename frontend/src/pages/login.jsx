@@ -23,7 +23,7 @@ function Login() {
     return <div className="container">
         <h1>Log in to Exclusive</h1>
         <p>Enter your details below</p>
-        <form onSubmit={handleSubmit}>
+        <form>
             <div className="input-group">
                 <input type="text" placeholder="Email or Phone Number" onChange={(e) => setEmail(e.target.value)} />
             </div>
@@ -32,7 +32,7 @@ function Login() {
             </div>
 
         </form>
-        <div className="forgot-password">
+        <div className="forgot-password" onClick={handleSubmit}>
             <a href='/'><button type="submit" className="login-button ">Log In</button></a>
             <p></p>
             <a href="/account">Forget Password?</a>
