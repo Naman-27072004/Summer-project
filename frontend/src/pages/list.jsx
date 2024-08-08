@@ -17,7 +17,7 @@ function List() {
                 axios.post('http://localhost:8080/list', { name, description, price, category, brand, image, stock })
                     .then(result => {
                         console.log(result)
-                        if (result.data === "Success") {
+                        if (result.data.status === "Success") {
                             navigate('/product')
                         }
         

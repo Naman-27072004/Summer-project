@@ -57,7 +57,7 @@ function Footer() {
           <div>
             <form>
               <h5>Subscribe</h5>
-              <p>Get 10% off your first order</p>
+              <p>Get 10% off on your first order</p>
               <div className="send-bar">
                 <input
                   id="newsletter1"

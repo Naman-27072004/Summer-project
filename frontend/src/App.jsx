@@ -44,29 +44,29 @@ function App() {
         <main className='page-body'>
           <Routes>
             <Route path='/' element={<Homepage />} />
-            <Route path='about' element={<About />} />
-            <Route path='account' element={<User />} />
-            <Route path='cancel' element={<Cancel />} />
-            <Route path='cart' element={<Cart />} />
-            <Route path='checkout' element={<Payment />} />
-            <Route path='contact' element={<Contact />} />
-            <Route path='error' element={<Error />} />
-            <Route path='faq' element={<Faq />} />
-            <Route path='list' element={<List />} />
-            <Route path='login' element={<Login />} />
-            <Route path='order' element={<Order />} />
-            <Route path='premium_s' element={<Premium_s />} />
-            <Route path='premium_c' element={<Premium_c />} />
-            <Route path='privacy' element={<Privacy />} />
-            <Route path='product' element={<Product />} />
-            <Route path='profile' element={<Profile />} />
-            <Route path='refund' element={<Refund />} />
-            <Route path='return' element={<Return />} />
-            <Route path='s_p_info' element={<Info_s />} />
-            <Route path='shipping' element={<Shipping />} />
-            <Route path='signup' element={<Signup />} />
-            <Route path='term' element={<Term />} />
-            <Route path='wishlist' element={<Wishlist />} />
+            <Route path='/about' element={<About />} />
+            <Route path='/account' element={<User />} />
+            <Route path='/cancel' element={<Cancel />} />
+            <Route path='/cart' element={<Cart />} />
+            <Route path='/checkout' element={<Payment />} />
+            <Route path='/contact' element={<Contact />} />
+            <Route path='/error' element={<Error />} />
+            <Route path='/faq' element={<Faq />} />
+            <Route path='/list' element={<List />} />
+            <Route path='/login' element={<Login />} />
+            <Route path='/order' element={<Order />} />
+            <Route path='/premium_s' element={<Premium_s />} />
+            <Route path='/premium_c' element={<Premium_c />} />
+            <Route path='/privacy' element={<Privacy />} />
+            <Route path='/product' element={<Product />} />
+            <Route path='/profile' element={<Profile />} />
+            <Route path='/refund' element={<Refund />} />
+            <Route path='/return' element={<Return />} />
+            <Route path='/s_p_info' element={<Info_s />} />
+            <Route path='/shipping' element={<Shipping />} />
+            <Route path='/signup' element={<Signup />} />
+            <Route path='/term' element={<Term />} />
+            <Route path='/wishlist' element={<Wishlist />} />
           </Routes>
         </main>
         <footer><Footer /></footer>

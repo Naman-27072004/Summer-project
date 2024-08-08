@@ -24,14 +24,14 @@ function Contact(){
     <div className="contact-info">
       <div className="contact-item">
         <h3><IoCallOutline size={40} className='icon'/>Call To Us</h3>
-        <p>We are available 24/7, 7 days a week.</p>
+        <p>We are available 24/7.</p>
         <p>Phone: +91 9999999999</p>
       </div>
       <hr></hr>
       <div className="contact-item">
         <h3><CiMail size={40} className='icon'/>Write To Us</h3>
         <p>Fill out our form and we will contact you within 24 hours.</p>
-        <p>Emails: techbazaar2025@gmail.com</p>
+        <p>Email: techbazaar2025@gmail.com</p>
       </div>
     </div>
     <form className="contact-form">

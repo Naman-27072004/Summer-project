@@ -57,19 +57,43 @@ app.post('/contact', (req, res) => {
         .catch(err => res.json(err))
 })
 
-// app.post('/manage',(req,res)=>{
-//     const{name,email,n_pass,c_n_pass} = req.body
-//     Manage.findOne({ name : name, email : email})
+// app.put('/manage',(req,res)=>{
+//     const {email, password} = req.body
+//     console.log(email,password)
+//     Users.findOne({email})
 //     .then(user =>{
 //         if(user){
-//             if(user.name === name && user.email === email)
+//             if(user.email === email)
 //             {
-//                 Users.updateOne({})
+//                 const userData = Users.updateOne({password:password})
+//                 .then(res.json(userData))
 //             }
 //         }
 //     })
-
+//     .catch(err => res.json(err))
 // })
+
+app.put('/manage', async (req, res) => {
+    try {
+        const { email, password } = req.body;
+
+        // Find the user by email
+        const user = await Users.findOne({ email });
+
+        if (!user) {
+            return res.status(404).json({ message: 'User not found' });
+        }
+
+        // Update the user's password
+        user.password = password;
+        await user.save();
+
+        res.json({ message: 'Password updated successfully' });
+    } catch (error) {
+        res.status(500).json({ error: 'Internal server error' });
+    }
+});
+
 
 app.post('/checkout',(req,res)=>{
     Checkout.create(req.body)
@@ -79,7 +103,7 @@ app.post('/checkout',(req,res)=>{
 
 app.post('/list', (req, res) => {
     Product.create(req.body)
-        .then(User => res.json(User))
+        .then(User => res.json({status:"Success",user:User}))
         .catch(err => res.json(err))
 })
 
