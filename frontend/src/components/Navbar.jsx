@@ -3,6 +3,7 @@ import { CiSearch } from "react-icons/ci";
 import { CiHeart } from "react-icons/ci";
 import { CiShoppingCart } from "react-icons/ci";
 import { CiUser } from "react-icons/ci";
+import { IoIosAddCircleOutline } from "react-icons/io";
 
 function Navbar() {
   return (
@@ -49,6 +50,11 @@ function Navbar() {
             <button>
               <a href="/account">
                 <CiUser size={25}/>
+              </a>
+            </button>
+            <button>
+              <a href="/list">
+                <IoIosAddCircleOutline size={25}/>
               </a>
             </button>
           </div>

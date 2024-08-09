@@ -136,7 +136,6 @@ function Payment() {
                   <div>
                     <label>Enter UPI ID/VPA</label><br/>
                     <input type="text" />
-                    <input/>
                   </div>
                 </div>
               </div>
@@ -166,6 +165,9 @@ function Payment() {
               <label htmlFor="bank"> Net Banking</label>
               <div>
                 <p>In order to complete your transaction, we will transfer you over to Adyens secure servers.</p>
+                <selection>
+                  <option value=""></option>
+                </selection>
               </div>
             </div>
             <div>
