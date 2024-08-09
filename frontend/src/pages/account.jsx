@@ -62,7 +62,7 @@ function User() {
                     <input type="password" name="new_password" placeholder="New Password" onChange={(e) => setNewPass(e.target.value)} />
                     <input type="password" name="confirm_password" placeholder="Confirm New Password" onChange={(e) => setConfirmedPass(e.target.value)} />
                     <div className="buttons">
-                        <button type="button" className="cancel">Cancel</button>
+                        <button type="button" className="cancel"><a href='/'>Cancel</a></button>
                         <button type="submit" className="save" onClick={handleSubmit}>Save Changes</button>
                     </div>
                 </form>
