@@ -10,6 +10,11 @@ function Payment() {
   const [city, setCity] = useState();
   const [phone, setPhone] = useState();
   const [email, setEmail] = useState();
+  const [upi,setUpi] = useState();
+  const [card_no,setCardNo] = useState();
+  const [ex_date,setExDate] = useState();
+  const [cvc_cvv,setC] = useState();
+  const [name_card,setNameCard] = useState();
   const [c_code, setCouponCode] = useState();
   const navigate = useNavigate();
   const handleSubmit = (e) => {
@@ -22,6 +27,11 @@ function Payment() {
         city,
         phone,
         email,
+        upi,
+        card_no,
+        ex_date,
+        cvc_cvv,
+        name_card,
         c_code,
       })
       .then((result) => {
@@ -146,7 +156,9 @@ function Payment() {
                     <label>Enter UPI ID/VPA</label>
                     <br />
                     <div className="i_m">
-                      <input type="text" />
+                      <input type="text" 
+                        onChange={(e) => setUpi(e.target.value)}
+                      />
                     </div>
                   </div>
                 </div>
@@ -162,22 +174,22 @@ function Payment() {
                 <div className="p_m1">
                   <label>Card number</label>
                   <br />
-                  <input type="number" placeholder="Card number" />
+                  <input type="number" placeholder="Card number" onChange={(e) => setCardNo(e.target.value)}/>
                   <div className="c_m">
                     <div className="c_m1">
                       <label>Expiry date</label>
                       <br />
-                      <input type="number" placeholder="Expiry date" />
+                      <input type="number" placeholder="Expiry date" onChange={(e) => setExDate(e.target.value)}/>
                     </div>
                     <div className="c_m2">
                       <label>CVC/CVV</label>
                       <br />
-                      <input type="number" placeholder="CVC/CVV" />
+                      <input type="number" placeholder="CVC/CVV" onChange={(e) => setC(e.target.value)}/>
                     </div>
                   </div>
                   <label>Name on card</label>
                   <br />
-                  <input type="text" placeholder="Name on card" />
+                  <input type="text" placeholder="Name on card" onChange={(e) => setNameCard(e.target.value)}/>
                   <br />
                 </div>
                 <input type="checkbox" className="checkbox" />
