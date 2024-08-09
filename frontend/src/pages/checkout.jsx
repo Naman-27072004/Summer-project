@@ -165,9 +165,29 @@ function Payment() {
               <label htmlFor="bank"> Net Banking</label>
               <div>
                 <p>In order to complete your transaction, we will transfer you over to Adyens secure servers.</p>
-                <selection>
-                  <option value=""></option>
-                </selection>
+                <select>
+                  <option value='Select your bank'>Select your bank</option>
+                  <option value="SBI">SBI</option>
+                  <option value="PNB">PNB</option>
+                  <option value="HDFC">HDFC</option>
+                  <option value="ICICI">ICICI</option>
+                  <option value="AXIS">AXIS</option>
+                  <option value="YES">YES</option>
+                  <option value="IDFC">IDFC</option>
+                  <option value="FEDERAL">FEDERAL</option>
+                  <option value="CANARA">CANARA</option>
+                  <option value="BANK OF BARODA ">BANK OF BARODA </option>
+                  <option value="UNION BANK OF INDIA">UNION BANK OF INDIA</option>
+                  <option value="INDIAN BANK">INDIAN BANK</option>
+                  <option value="BANK OF INDIA">BANK OF INDIA</option>
+                  <option value="CENTRAL BANK OF INDIA">CENTRAL BANK OF INDIA</option>
+                  <option value="CENTRAL BANK OF INDIA">CENTRAL BANK OF INDIA</option>
+                  <option value="BANK OF MAHARASHTRA ">BANK OF MAHARASHTRA </option>
+                  <option value="KOTAK MAHINDRA">KOTAK MAHINDRA</option>
+                  <option value="INDUSLND">INDUSLND</option>
+                  <option value="TAMIL NADU ">TAMIL NADU </option>
+                  <option value="AU SMALL FINANCE">AU SMALL FINANCE</option>
+                </select>
               </div>
             </div>
             <div>
