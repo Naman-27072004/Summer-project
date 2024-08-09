@@ -127,14 +127,46 @@ function Payment() {
             <div>
               <input type="radio" id="bank" name="payment" />
               <label htmlFor="bank"> UPI</label>
+              <div>
+                <p>How would you like to use UPI?</p>
+                <div>
+                  <button>Qr code</button>
+                  <button>Enter UPI ID</button><br/>
+                  <span>Complete your payment</span>
+                  <div>
+                    <label>Enter UPI ID/VPA</label><br/>
+                    <input type="text" />
+                    <input/>
+                  </div>
+                </div>
+              </div>
             </div>
             <div>
               <input type="radio" id="bank" name="payment" />
               <label htmlFor="bank"> Credit/Debit Card</label>
+              <div>
+                <label>Card number</label>
+                <input type="number"/>
+                <div>
+                <label>Expiry date</label>
+                <input type="number"/>
+                <label>CVC/CVV</label>
+                <input type="number"/>
+                </div>
+                <label>Name on card</label><br/>
+                <input type="text"/><br/>
+                <input type="checkbox"/>
+                <label>
+                  Securely save this card for my later purchase
+                </label>
+              </div>
             </div>
             <div>
               <input type="radio" id="bank" name="payment" />
               <label htmlFor="bank"> Net Banking</label>
+              <div>
+                <p>In order to complete your transaction, we will transfer you over to Adyens secure servers.</p>
+              </div>
             </div>
             <div>
               <input type="radio" id="cod" name="payment" defaultChecked />

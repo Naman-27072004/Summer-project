@@ -43,11 +43,20 @@
     border-radius: 10px;
 }
 
+.coupon{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 .coupon input{
     border: 2px solid black;
     border-radius: 10px;
     padding: 10px;
     margin: 10px;
+    height: 50px;
+}
+.coupon button{
+    height: 50px;
+    width: 150px;
 }
 
 .summary Span{
