@@ -50,7 +50,7 @@ function User() {
                 <h1>Edit Your Profile</h1>
                 <form className="form">
                     <label>First Name</label>
-                    <input type="text" name="first_name" placeholder="Enter your name" onChange={(e) => setName(e.target.value)} />
+                    <input type="text" name="first_name" placeholder="Enter your name" />
                     {/* <label>Last Name</label>
                     <input type="text" name="last_name" placeholder="Surname" /> */}
                     <label>Email</label>
