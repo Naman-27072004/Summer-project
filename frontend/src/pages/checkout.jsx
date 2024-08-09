@@ -33,7 +33,6 @@ function Payment() {
   return (
     <div className="billing-container">
       <div className="billing-details">
-        
         <div className="billing-form">
           <h1>Billing Details</h1>
           <label htmlFor="firstName">First Name*</label>
@@ -125,48 +124,79 @@ function Payment() {
           </div>
           <div className="payment-methods">
             <div>
-              <input type="radio" id="bank" name="payment" />
-              <label htmlFor="bank"> UPI</label>
+              <div className="p-methods ">
+                <input type="radio" id="bank" name="payment" />
+                <label htmlFor="bank"> UPI</label>
+              </div>
+
               <div>
-                <p>How would you like to use UPI?</p>
-                <div>
-                  <button>Qr code</button>
-                  <button>Enter UPI ID</button><br/>
+                <div className="p_m">
+                  <p>How would you like to use UPI?</p>
+                  <div className="b_m">
+                    <div className="b_m1">
+                      <button>Qr code</button>
+                    </div>
+                    <div className="b_m2">
+                      <button>Enter UPI ID</button>
+                    </div>
+                  </div>
+                  <br />
                   <span>Complete your payment</span>
                   <div>
-                    <label>Enter UPI ID/VPA</label><br/>
-                    <input type="text" />
+                    <label>Enter UPI ID/VPA</label>
+                    <br />
+                    <div className="i_m">
+                      <input type="text" />
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
             <div>
-              <input type="radio" id="bank" name="payment" />
-              <label htmlFor="bank"> Credit/Debit Card</label>
-              <div>
-                <label>Card number</label>
-                <input type="number"/>
-                <div>
-                <label>Expiry date</label>
-                <input type="number"/>
-                <label>CVC/CVV</label>
-                <input type="number"/>
+              <div className="p-methods ">
+                <input type="radio" id="bank" name="payment" />
+                <label htmlFor="bank"> Credit/Debit Card</label>
+              </div>
+
+              <div className="p_m">
+                <div className="p_m1">
+                  <label>Card number</label>
+                  <br />
+                  <input type="number" placeholder="Card number" />
+                  <div className="c_m">
+                    <div className="c_m1">
+                      <label>Expiry date</label>
+                      <br />
+                      <input type="number" placeholder="Expiry date" />
+                    </div>
+                    <div className="c_m2">
+                      <label>CVC/CVV</label>
+                      <br />
+                      <input type="number" placeholder="CVC/CVV" />
+                    </div>
+                  </div>
+                  <label>Name on card</label>
+                  <br />
+                  <input type="text" placeholder="Name on card" />
+                  <br />
                 </div>
-                <label>Name on card</label><br/>
-                <input type="text"/><br/>
-                <input type="checkbox"/>
-                <label>
-                  Securely save this card for my later purchase
-                </label>
+                <input type="checkbox" className="checkbox" />
+                <label>Securely save this card for my later purchase</label>
               </div>
             </div>
             <div>
-              <input type="radio" id="bank" name="payment" />
-              <label htmlFor="bank"> Net Banking</label>
-              <div>
-                <p>In order to complete your transaction, we will transfer you over to Adyens secure servers.</p>
+              <div className="p-methods ">
+                <input type="radio" id="bank" name="payment" />
+                <label htmlFor="bank"> Net Banking</label>
+              </div>
+
+              <div className="p_m">
+                <p>
+                  In order to complete your transaction, we will transfer you
+                  over to Adyens secure servers.
+                </p>
                 <select>
-                  <option value='Select your bank'>Select your bank</option>
+                  <option value="Select your bank">Select your bank</option>
                   <option value="SBI">SBI</option>
                   <option value="PNB">PNB</option>
                   <option value="HDFC">HDFC</option>
@@ -177,12 +207,20 @@ function Payment() {
                   <option value="FEDERAL">FEDERAL</option>
                   <option value="CANARA">CANARA</option>
                   <option value="BANK OF BARODA ">BANK OF BARODA </option>
-                  <option value="UNION BANK OF INDIA">UNION BANK OF INDIA</option>
+                  <option value="UNION BANK OF INDIA">
+                    UNION BANK OF INDIA
+                  </option>
                   <option value="INDIAN BANK">INDIAN BANK</option>
                   <option value="BANK OF INDIA">BANK OF INDIA</option>
-                  <option value="CENTRAL BANK OF INDIA">CENTRAL BANK OF INDIA</option>
-                  <option value="CENTRAL BANK OF INDIA">CENTRAL BANK OF INDIA</option>
-                  <option value="BANK OF MAHARASHTRA ">BANK OF MAHARASHTRA </option>
+                  <option value="CENTRAL BANK OF INDIA">
+                    CENTRAL BANK OF INDIA
+                  </option>
+                  <option value="CENTRAL BANK OF INDIA">
+                    CENTRAL BANK OF INDIA
+                  </option>
+                  <option value="BANK OF MAHARASHTRA ">
+                    BANK OF MAHARASHTRA{" "}
+                  </option>
                   <option value="KOTAK MAHINDRA">KOTAK MAHINDRA</option>
                   <option value="INDUSLND">INDUSLND</option>
                   <option value="TAMIL NADU ">TAMIL NADU </option>
@@ -191,8 +229,10 @@ function Payment() {
               </div>
             </div>
             <div>
-              <input type="radio" id="cod" name="payment" defaultChecked />
-              <label htmlFor="cod"> Cash on delivery</label>
+              <div className="p-methods ">
+                <input type="radio" id="cod" name="payment" defaultChecked />
+                <label htmlFor="cod"> Cash on delivery</label>
+              </div>
             </div>
           </div>
           <div className="coupon">

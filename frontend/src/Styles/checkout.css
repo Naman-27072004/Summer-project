@@ -72,3 +72,55 @@
     padding: 10px;
     margin: 10px;
 }
+.payment-methods {
+    background-color: #F5F5F5;
+    margin:10px;
+    padding: 10px;
+}
+.p_m {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+}
+.b_m{
+     border:2px solid rgb(138, 136, 136);
+     border-radius: 10px;
+     display:grid;
+     grid-template-columns: 1fr 1fr;
+}
+.b_m1 button{
+    width: 130px;
+}
+.b_m2 button{
+   
+    width: 130px;
+}
+.i_m input{
+    border:2px solid black;
+    outline:none;
+    width:310px;
+    border-radius:8px;
+    padding: 5px;
+}
+/* .c_m{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.c_m1 .c_m2{
+    width: 25px;
+} */
+
+.p_m1{
+    margin: 10px    
+}
+.p_m1 input{
+    border:2px solid black;
+    outline:none;
+    width:310px;
+    border-radius:8px;
+    padding: 5px;
+}
+.checkbox{
+    margin: 10px;
+}
