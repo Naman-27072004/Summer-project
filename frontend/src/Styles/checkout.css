@@ -7,6 +7,8 @@
 .billing-details{
     padding: 10%;
     margin: 10%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .order-summary{
